@@ -30,6 +30,6 @@ if __name__ == '__main__':
             if event.type == pygame.QUIT:
                 pygame.quit()
                 run = True
-        pygame.draw.circle(screen, (255, 255, 0), (random.randint(1, 500), random.randint(1, 500)), random.randint(1, 100), 2)
+        pygame.draw.circle(screen, (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), (random.randint(1, 500), random.randint(1, 500)), random.randint(1, 100), 2)
         pygame.display.flip()
         clock.tick(3)
