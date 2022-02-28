@@ -32,4 +32,4 @@ if __name__ == '__main__':
                 run = True
         pygame.draw.circle(screen, (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)), (random.randint(1, 500), random.randint(1, 500)), random.randint(1, 100), 2)
         pygame.display.flip()
-        clock.tick(4)
+        clock.tick(5)
